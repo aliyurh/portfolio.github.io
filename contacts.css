@@ -1,0 +1,90 @@
+body {
+display: flex;
+width: 1440px;
+padding: 0px 0px 347px 0px;
+flex-direction: column;
+align-items: center;
+}
+
+.wrapper {
+display: grid;
+grid-template-areas: 
+        "navbar navbar navbar"
+        "title title title";
+width: 1440px;
+padding: 0px 0px 347px 0px;
+}
+
+.wrapper, .navbar, #home, #bio, #bg, #contact {
+    border: 1px;
+    text-align: center;
+    justify-items: center;
+}
+
+.navbar {
+grid-area: navbar;
+display: grid;
+grid-template-areas: "home bio bg contact";
+width: 1440px;
+height: 85px;
+flex-shrink: 0;
+background-color: #DBB8B6;
+}
+
+#home {
+    grid-area: home;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#bio {
+    grid-area: bio;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#bg {
+    grid-area: bg;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#contact {
+    grid-area: contact;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#box {
+width: 529px;
+height: 291px;
+flex-shrink: 0;
+border: 2px solid #FFC6C2;
+background: #FFF0EF;
+margin-left: 452px;
+margin-top: 200px;
+}
+#text {
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 130px;
+}

@@ -1,0 +1,133 @@
+body {
+display: flex;
+width: 1440px;
+padding: 0px 0px 347px 0px;
+flex-direction: column;
+align-items: center;
+}
+
+.wrapper {
+display: grid;
+grid-template-areas: 
+        "navbar navbar navbar"
+        "box1 box1 box2 box2";
+width: 1440px;
+padding: 0px 0px 347px 0px;
+}
+
+.wrapper, .navbar, #home, #bio, #bg, #contact #box1, #box2, #text1, text2 {
+    border: 1px;
+    text-align: center;
+    justify-items: center;
+}
+
+.navbar {
+grid-area: navbar;
+display: grid;
+grid-template-areas: "home bio bg contact";
+width: 1440px;
+height: 85px;
+flex-shrink: 0;
+background-color: #DBB8B6;
+}
+
+#home {
+    grid-area: home;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#bio {
+    grid-area: bio;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#bg {
+    grid-area: bg;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#contact {
+    grid-area: contact;
+width: 185px;
+height: 52px;
+flex-shrink: 0;
+border: 2px solid #D79A95;
+background: #FFF6F6;
+margin-top: 12px;
+}
+
+#title {
+grid-area: title;
+text-align: center;
+justify-items: center;
+font-size: 50px;
+margin-top: 250px;
+}
+
+.box1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 575px;
+    height: 683px;
+    left: 100px;
+    top: 115px;
+    background: #FFF0EF;
+    border: 2px solid #FFC6C2;
+}
+#text1 {
+position: absolute;
+width: 400px;
+height: 323px;
+left: 80px;
+top: 25px;
+
+font-style: normal;
+font-size: 18px;
+line-height: 20px;
+-- Lia was here --
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.box2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 580px;
+    height: 401px;
+    left: 750px;
+    top: 250px;
+    flex-shrink: 0;
+    background: #FFF0EF;
+    border: 2px solid #FFC6C2;
+}
+#text2 {
+position: absolute;
+width: 400px;
+height: 323px;
+left: 80px;
+top: 25px;
+
+font-style: normal;
+font-size: 18px;
+line-height: 20px;
+-- Lia was here --
+display: flex;
+align-items: center;
+text-align: center;
+}
